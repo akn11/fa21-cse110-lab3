@@ -1,0 +1,1 @@
+Link to meeting minutes: https://akn11.github.io/Lab2/

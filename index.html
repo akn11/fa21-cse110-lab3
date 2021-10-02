@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="psicon.ico" type="image/x-icon" />
+    <title>PS Meeting Minutes Page(html)</title>
+</head>
+
+<body>
+    <header>
+        <div>Jump around:</div>
+        <nav>
+            <ul>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#diagrams">Diagrams</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Playstation 10 Brainstorm (CONFIDENTIAL)</h1>
+        <h6>Third meeting: Features, Design</h6>
+        <h6>Date: October 1st, 2034</h6>
+        <h6>Location: 16535 Via Esprillo, San Diego, CA 92127</h6>
+        <h6>Attendance: Tom Wiseman, Bill Gates, Sarah Marshall, Tim Cook, Sandra Smith, Neil Tyson </h6>
+        <hr>
+        <hr>
+        <section>
+            <h3><a id="agenda">Agenda</a></h3>
+            <p>Goal: <strong>Finalize base design</strong></p>
+            <ol>
+                <li>Discuss unfinished buisness from <b>last meeting</b></li>
+                <li>Discuss new topics</li>
+                <li>Go over schematics</li>
+                <li>Q/A</li>
+                <li>Discuss vacation plans</li>
+
+            </ol>
+            <h3>Unfinished buisness</h3>
+            <ul>
+                <li>Base Design Model</li>
+                <ul>
+                    <li>Color</li>
+                    <!-- <p>fwefew</p> -->
+                    <li>Size</li>
+                    <li>Lights</li>
+                </ul>
+            </ul>
+            <h3>New topics</h3>
+            <ul>
+                <li>Features</li>
+                <ul>
+                    <li>Sound Effects</li>
+                    <li>Backwards Compatibility</li>
+                    <li>Portabality</li>
+                </ul>
+            </ul>
+
+            <h3><a id="diagrams">Diagrams</a></h3>
+            <img class="fit-picture" src="PS10.jpg" alt="PlayStation 10 Concept " width="600" height="400">
+            <p>
+                Research shows that users like the <em>black</em> consoles more. Everntually we will have more colors.
+                <br>
+                Our <i>Spider-Man</i> and <i>God of War</i> themed consoles sold well.
+            </p>
+
+
+
+            <h3><a id="form">Form</a></h3>
+            <form>
+                <fieldset>
+                    <legend>Choose your project pseudonym</legend>
+
+                    <input type="radio" id="psx" name="fakename">
+                    <label for="psx">PSX</label><br />
+
+                    <input type="radio" id="projectx" name="fakename">
+                    <label for="projectx">ProjectX</label><br />
+
+                    <input type="radio" id="xbox10" name="fakename">
+                    <label for="xbox10">Xbox10</label>
+                </fieldset>
+            </form>
+            <label for="pet-select">Select a console design:</label>
+            <select name="consoledesign" id="consoledesign">
+                <option value="">--Please choose an option--</option>
+                <option value="spider-man">Spider-Man</option>
+                <option value="godofwar">God of War</option>
+                <option value="2k">2K</option>
+                <option value="madden">Madden</option>
+            </select><br>
+
+            <label for="features">Select or enter a feature:</label>
+            <input list="features" id="ice-cream-choice" name="features" />
+
+            <datalist id="features">
+                <option value="Portabality">
+                <option value="Battery Life">
+                <option value="Backwards Compatibility">
+                <option value="Speaker System">
+                <option value="4D">
+            </datalist><br>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required maxlength="20" size="10"><br>
+            <input type="checkbox" id="getEmail" name="getEmail" checked>
+            <label for="getEmail">Do you want email updates</label><br>
+            <label for="start">View Date:</label>
+            <input type="date" id="view" name="viewdate" value="2034-10-01" min="2034-01-01" max="2034-12-31"><br>
+        </section>
+
+    </main>
+    <hr>
+    <hr>
+    <footer>
+        <label for="story">Your Questions:</label><br>
+        <textarea id="story" name="story" rows="5" cols="33">Type questions here.
+        </textarea><br>
+        <button class="favorite styled" type="button">
+            Subscribe
+        </button>
+        <hr>
+        <hr>
+        <div>Jump around:</div>
+        <nav>
+            <ul>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#diagrams">Diagrams</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+        <details>
+            <summary>Meeting 3 Video/Audio</summary>
+
+            <video controls width="250">
+                <source src="video1.m4v" type="video/mp4">
+            </video>
+            <figcaption>Meeting 3 Video</figcaption><br>
+            <audio controls src="audio.m4a">
+            </audio>
+            <figcaption>Meeting 3 Audio</figcaption>
+        </details>
+    </footer>
+
+</body>
+
+</html>
