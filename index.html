@@ -38,29 +38,31 @@
 
             </ol>
             <h3>Unfinished buisness</h3>
+            Base Design Model
+            <!-- <ul>
+                <li>Base Design Model</li> -->
             <ul>
-                <li>Base Design Model</li>
-                <ul>
-                    <li><a href="#">Color</a></li>
-                    <li><a href="#">Size</a></li>
-                    <li><a href="#">Lights</a></li>
-                    <!-- <li>Color</li>
+                <li><a href="#">Color</a></li>
+                <li><a href="#">Size</a></li>
+                <li><a href="#">Lights</a></li>
+                <!-- <li>Color</li>
                     <li>Size</li>
                     <li>Lights</li> -->
-                </ul>
             </ul>
+            <!-- </ul> -->
             <h3>New topics</h3>
+            Features
+            <!-- <ul>
+                <li>Features</li> -->
             <ul>
-                <li>Features</li>
-                <ul>
-                    <li><a href="#">Sound Effects</a></li>
-                    <li><a href="#">Backwards Compatibility</a></li>
-                    <li><a href="#">Portabality</a></li>
-                    <!-- <li>Sound Effects</li>
+                <li><a href="#">Sound Effects</a></li>
+                <li><a href="#">Backwards Compatibility</a></li>
+                <li><a href="#">Portabality</a></li>
+                <!-- <li>Sound Effects</li>
                     <li>Backwards Compatibility</li>
                     <li>Portabality</li> -->
-                </ul>
             </ul>
+            <!-- </ul> -->
 
             <h3><a id="diagrams">Diagrams</a></h3>
             <img class="fit-picture" src="PS10.jpg" alt="PlayStation 10 Concept " width="600" height="400">
@@ -97,9 +99,8 @@
             </select><br>
 
             <label for="features">Select or enter a feature:</label>
-            <input list="features" id="features" name="features" />
-
-            <datalist id="features">
+            <input list="featureslist" id="features" name="features" />
+            <datalist id="featureslist">
                 <option value="Portabality">
                 <option value="Battery Life">
                 <option value="Backwards Compatibility">
@@ -108,9 +109,11 @@
             </datalist><br>
             <label for="name">Enter your name:</label>
             <input type="text" id="name" name="name" required maxlength="20" size="10"><br>
+
             <input type="checkbox" id="getEmail" name="getEmail" checked>
             <label for="getEmail">Do you want email updates</label><br>
-            <label for="start">View Date:</label>
+
+            <label for="view">View Date:</label>
             <input type="date" id="view" name="viewdate" value="2034-10-01" min="2034-01-01" max="2034-12-31"><br>
         </section>
 
