@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue; 
+  }
+
+  /* h1 {
+    color: navy;
+    margin-left: 20px;
+  } */
+
+  .box {
+    background-color: #567895;
+    border-color: hsl(208, 79%, 21%);
+    border-style: solid;
+    border-width: thick;
+    border-radius: 30px;
+    color: rgb(255,255,255);
+  }
