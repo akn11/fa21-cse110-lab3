@@ -60,3 +60,11 @@ body {
     position: sticky;
     top: 20px;
   }
+
+  .container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content:baseline;
+  }
+
+  
