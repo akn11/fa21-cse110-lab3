@@ -1,8 +1,8 @@
-body {
+body { /*adds background color to the whole page */
     background-color: lightblue; 
   }
 
-  .box {
+  .box { /* creates a box with set borders, background colors, text color and positioning */
     background-color: #567895;
     border-color: hsl(208, 79%, 21%);
     border-top-style: solid;
@@ -13,40 +13,40 @@ body {
     
     color: rgb(255,255,255);
     display: block;
-    position: sticky;
+    position: sticky; /*lets the box move around the page */
     top: 20px;
   }
 
 
 
-  .centerLong {
+  .centerLong { /*sets margins for the h1 element */
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 24em;
     margin-right: 1em;
   }
 
-  .marginShort {
+  .marginShort { /*sets margins for all the h3 elements */
     margin: 1em 1em 1em 1em;
   }
 
-  .marginAuto {
+  .marginAuto { /*sets margin for the image */
     margin: auto;
     width: 42%;
   }
 
-  .paddingLong {
+  .paddingLong { /*sets padding for the info under h1*/
       padding-top: 0px;
       padding-bottom: 1px;
       padding-left: 20px;
       padding-right: 1000px;
   }
   
-  .paddingShort {
+  .paddingShort { /*Sets padding for the text under the image */
       padding: 5px 100px 0 25.5em;
   }
 
-  .formBox {
+  .formBox { /* does the same thing as .box but with minor changes so the form box will look cleaner */
     background-color: #567895;
     border-color: hsl(208, 79%, 21%);
     border-top-style: solid;
@@ -61,13 +61,13 @@ body {
     top: 20px;
   }
 
-  .container {
+  .container { /*sets all the .box elements in flexboxes */
     display: flex;
     flex-flow: wrap;
     justify-content:baseline;
   }
 
-  .grid {
+  .grid { /*sets the content in Agenda and Unfinished buisness in a gridbox */
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;    
@@ -75,14 +75,7 @@ body {
     justify-content:baseline;
   }
 
-  /* @media  (min-width: 35rem) {
-    h1 {
-        border: 2px solid blue;
-        border-radius: 30px;
-      }
-  } */
-  
-  @media print { 
+ @media print { /*sets text color when the page needs to be printed */
       div{
           color: black
       }
@@ -94,64 +87,64 @@ body {
       }
   }
 
-  @media screen{
+  @media screen{ /*sets width(s) for when viewing the page on a screen */
       div{
           max-width: auto;
           min-width: auto;
        }
   }
 
-button:hover {
+button:hover { /*adds color when hovering over the button */
     color: blue;
 }
 
-button:active {
+button:active { /*adds color when clicking the button */
     color: darkseagreen;
 }
 
-#highlight {
+#highlight { /*highlights any elements with the highlight id */
     background-color: lightcoral;
   }
 
-  * i{
+  * i{ /*sets color to any i elements */
     color: black;
   }
-  * em{
+  * em{ /*sets color to any em elements */
     color: black;
   }
 
-  ol[type="listOrdered"] {
+  ol[type="listOrdered"] { /*sets bullet points shape for the ordered list */
     list-style-type:disc;
   }
 
-  h1, h3 { 
+  h1, h3 {  /*makes h1 and h3 text italicized */
       font-style:oblique; 
 }
 
-ul a{
+ul a{ /*sets text in ul to black */
     color: black;
 }
 
-div > p {
+div > p { /*sets any p elements under div to light blue */
     color: rgb(191, 215, 224);
   }
 
-input ~ label {
+input ~ label { /*sets any label near an input element to italics*/
     font-style:italic;
     /* color: purple; */
 }
 
-summary + p {
+summary + p { /*sets any p next to a summary element to italics */
     /* font-weight: bold; */
     /* color: purple */
     font-style: italic;
 }
-video + p {
+video + p { /*sets any p next a video element to italics*/
     /* font-weight: bold;
     color: purple */
     font-style: italic;
 }
 
-main .box{
+main .box{ /*sets any .box that is a child of main to a certian border radius */
     border-radius: 30px;
 }
