@@ -74,4 +74,40 @@ body {
     grid-gap: 1em;
     justify-content:baseline;
   }
+
+  /* @media  (min-width: 35rem) {
+    h1 {
+        border: 2px solid blue;
+        border-radius: 30px;
+      }
+  } */
   
+  @media print { 
+      div{
+          color: black
+      }
+      a{
+        color: black
+      }
+      li{
+        color: black
+      }
+  }
+
+  @media screen{
+      div{
+          max-width: auto;
+          min-width: auto;
+      /* }
+    h1 {
+        border: 2px dotted red;
+        border-radius: 30px;
+        
+      } */
+  }
+
+  /* @media (max-width: 90rem) {
+    h1 {
+      border: 2px solid blue;
+    }
+  } */
