@@ -10,11 +10,17 @@ body {
   .box {
     background-color: #567895;
     border-color: hsl(208, 79%, 21%);
-    border-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    /* border-style: solid; */
     border-width: thick;
     border-radius: 30px;
     color: rgb(255,255,255);
   }
+
+
 
   .centerLong {
     margin-top: 1em;
@@ -29,5 +35,16 @@ body {
 
   .marginAuto {
     margin: auto;
-    width: 50%;
+    width: 42%;
+  }
+
+  .paddingLong {
+      padding-top: 0px;
+      padding-bottom: 1px;
+      padding-left: 20px;
+      padding-right: 1000px;
+  }
+  
+  .paddingShort {
+      padding: 5px 100px 0 25.5em;
   }
