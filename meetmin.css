@@ -67,4 +67,11 @@ body {
     justify-content:baseline;
   }
 
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;    
+    grid-gap: 1em;
+    justify-content:baseline;
+  }
   
