@@ -10,7 +10,7 @@ body {
     border-right-style: solid;
     border-left-style: solid;
     border-width: thick;
-    border-radius: 30px;
+    
     color: rgb(255,255,255);
     display: block;
     position: sticky;
@@ -98,16 +98,60 @@ body {
       div{
           max-width: auto;
           min-width: auto;
-      /* }
-    h1 {
-        border: 2px dotted red;
-        border-radius: 30px;
-        
-      } */
+       }
   }
 
-  /* @media (max-width: 90rem) {
-    h1 {
-      border: 2px solid blue;
-    }
-  } */
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: darkseagreen;
+}
+
+#highlight {
+    background-color: lightcoral;
+  }
+
+  * i{
+    color: black;
+  }
+  * em{
+    color: black;
+  }
+
+  ol[type="listOrdered"] {
+    list-style-type:disc;
+  }
+
+  h1, h3 { 
+      font-style:oblique; 
+}
+
+ul a{
+    color: black;
+}
+
+div > p {
+    color: rgb(191, 215, 224);
+  }
+
+input ~ label {
+    font-style:italic;
+    /* color: purple; */
+}
+
+summary + p {
+    /* font-weight: bold; */
+    /* color: purple */
+    font-style: italic;
+}
+video + p {
+    /* font-weight: bold;
+    color: purple */
+    font-style: italic;
+}
+
+main .box{
+    border-radius: 30px;
+}
